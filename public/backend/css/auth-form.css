@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 90px;
+  padding: 0 40px;
+}
+.header .navbrand img {
+  width: 50px;
+}
+.header ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header ul li:not(:first-child) {
+  margin-left: 15px;
+}
+.header ul a {
+  color: #52575d;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.form-container {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-container .navbrand img {
+  width: 50px;
+}
+.form-container .form {
+  width: 300px;
+  text-align: center;
+}
+.form-container .form h1 {
+  color: #52575d;
+}
+.form-container .form .form-group {
+  margin: 10px 0;
+  text-align: left;
+}
+.form-container .form label {
+  font-size: 17px;
+  color: #52575d;
+  display: block;
+  margin: 5px 0;
+  font-size: 18px;
+}
+.form-container .form input {
+  font-size: 16px;
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid #52575d48;
+}
+.form-container .form input:focus {
+  outline: 1px solid #c31162;
+  border: 1px solid #c31162;
+}
+.form-container .form button {
+  background-color: #c31162;
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  color: #fff;
+  margin: 10px 0;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/*# sourceMappingURL=auth-form.css.map */
